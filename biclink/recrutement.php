@@ -1,0 +1,357 @@
+<?php
+require_once __DIR__ . '/config.php';
+header("Content-Type: text/html; charset=utf-8");
+?>
+
+
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Recrutement</title>
+
+    <meta name="description" content="Rejoindre BICLINK, c'est avoir l'opportunité de participer à des missions challengeantes dans plusieurs domaines/secteurs et sur des thématiques riches et variées. Vous allez adorer faire partie de notre équipe!">
+
+    <meta name="keywords" content="Recrutement, Offre d'emploi, Stage, Expérience, Challenge, Team " />
+
+    <link rel="icon" href="assets/images/Li.png" sizes="32x32" type="image/png">
+
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="assets/css/style-starter.css">
+
+    <!-- font awesome -->
+  <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/adaf660447.js" crossorigin="anonymous"></script>
+
+    <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- inner page header -->
+    <div class="inner-banner">
+        <header>
+        <div class="w3l-header inner-w3l-header" id="home">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-dark pl-0 pr-0">
+                    <div class="logo"><a class="navbar-brand m-0 text-primary" href="index.html"><img src="assets/images/Sans titre-2.png" alt="logo"> </a>  </div> 
+
+                    <!-- <span class="logo">portfolio</span>-->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ml-auto">
+                            
+                            <li class="nav-item mr-lg-4">
+                              <a class="nav-link pl-0 pr-0 font-weight-bold" href="about.html">BICLINK</a>
+                               <ul class="dropdown">
+                                  <li><a href="about.html">Mieux nous connaître</a></li>
+                                  <li><a href="about.html#notremission">Notre mission</a></li>
+                                  <li><a href="about.html#VALEURS">Nos valeurs</a></li>
+                                  <!-- <li><a href="about.html#team">Notre équipe</a></li> -->
+                                </ul>
+                            </li>
+
+
+                    <li class="nav-item mr-lg-4">
+                        <a class="nav-link pl-0 pr-0 font-weight-bold" href="offre.html">Offre</a>
+                    </li>
+
+                    <li class="nav-item mr-lg-4">
+                        <a class="nav-link pl-0 pr-0 font-weight-bold" href="expertise.html">Expertise</a>
+                    </li>
+
+                    <li class="nav-item mr-lg-4">
+                        <a class="nav-link pl-0 pr-0 font-weight-bold" href="référence.html">Références</a>
+                    </li>
+                    <li class="nav-item active mr-lg-4">
+                        <a class="nav-link pl-0 pr-0 font-weight-bold" href="recrutement.php">Recrutement</a>
+                        <ul class="dropdown">
+                          <li><a href="recrutement.php">Pourquoi nous rejoindre?</a></li>
+                          <!--<li><a href="recrutement.php#emploi">Offre d'emlpoi</a></li>-->
+                          <li><a href="recrutement.php#candidature">Candidature spontanée</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item mr-lg-4">
+                        <a class="nav-link pl-0 pr-0 font-weight-bold" href="">Actualités</a>
+                        <ul class="dropdown">
+                          <li><a href="">Evénements</a></li>
+                          <li><a href="">Articles</a></li>                     
+                          </ul>
+                    </li>
+                    <li class="nav-item mr-lg-4">
+                        <a class="nav-link pl-0 pr-0 font-weight-bold" href="contact.html">Contact</a>
+                    </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+                    <div class="underheader">
+        </div>
+        </header>
+    </div>
+    <!-- //inner page header -->
+
+
+<!-- pourquoi nous rejoindre -->
+    <div class="w3l-recrutement">
+        <div class="container">
+            <h4 class="">POURQUOI NOUS REJOINDRE ?</h4> <br>
+        	<p class="">Si tu recherches bien plus qu’un simple emploi, nous t’invitons à commencer ton aventure avec nous ! </p>
+        </div>
+    </div> 
+
+
+     <section id="related-work" class="padding-top padding-bottom">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-sm-3">
+                    <div class="portfolio-wrapper">
+                        <div class="portfolio-single">
+                            <div class="portfolio-thumb text-center">
+                                <img src="assets/images/Why1.jpg" class="img-responsive" alt="recrutement">
+                            </div>
+
+                        </div>
+
+                        <div class="portfolio-info ">
+                            <h2>C’est <B>dans un cadre de travail stimulant et une ambiance unique et décontractée</B> que nous aurons beaucoup de plaisir à t’accueillir.</h2>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="col-sm-3">
+                    <div class="portfolio-wrapper">
+                        <div class="portfolio-single">
+                            <div class="portfolio-thumb text-center">
+                                <img src="assets/images/Why2.jpg" class="img-responsive" alt="recrutement">
+                            </div>
+
+                        </div>
+
+                        <div class="portfolio-info ">
+                            <h2>Tu joueras <B> un rôle de premier plan sur des missions de transformation à forts impacts </B>quelque soit ton niveau d’expérience.</h2>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="portfolio-wrapper">
+                        <div class="portfolio-single">
+                            <div class="portfolio-thumb text-center">
+                                <img src="assets/images/Why3.jpg" class="img-responsive" alt="recrutement">
+                            </div>
+
+                        </div>
+
+                        <div class="portfolio-info ">
+                            <h2>Tu pourras adopter <B>le mode de travail qui te correspond : flexible et agile </B>; où seul le résultat compte.</h2>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="portfolio-wrapper">
+                        <div class="portfolio-single">
+                            <div class="portfolio-thumb text-center">
+                                <img src="assets/images/Why4.jpg" class="img-responsive" alt="recrutement">
+                            </div>
+
+                        </div>
+
+                        <div class="portfolio-info ">
+                            <h2>Tu seras étonné de <B> la vitesse à laquelle tu apprendras et évolueras </B> en étant constamment aspiré à innover et à développer tes compétences pour pousser toujours plus loin ta créativité.</h2>
+                        </div>
+
+                    </div>
+                </div>
+            </div><div id="candidature"> </div>
+        </div>
+
+    </section> 
+
+      <!-- Scroll down -->
+
+<section id="section01" class="demo" title="Candidature">
+  <a href="#candidature"><span></span></a>
+</section>
+
+  <!-- //Scroll down -->    
+
+
+<!--  candidature spontanée  -->
+
+ <div class="candidature">
+    <div class="container1 text-center">
+        <img src="assets/images/candidature.jpg" class="candidature_img" height=200 width=200 alt="join us" />
+        <h4 class="title"> CANDIDATURE SPONTANÉE </h4>
+
+    </div>
+             
+
+<button id='open' onclick="document.getElementById('myModalc').style.display='block'" class="btnc">Postuler</button>
+
+<div id="myModalc" class="modalc" role="dialog">
+
+  <!-- Modal content -->
+  <div class="modalc-content">
+
+    <div class="modalc-header">
+      <button  id='close' onclick="document.getElementById('myModalc').style.display='none'"class="closec"> &times; Fermer</button>  
+    </div>
+
+    <div class="modalc-body">
+<!--  candidature spontanée  -->
+
+                   
+    <div class="container">
+        <form id="candidature-form" method="post" action="candidaturesend.php " enctype="multipart/form-data">
+
+           <label for="fname">Nom/Prénom : </label>
+           <input type="text" id="name" name="name" placeholder="Nom" required>
+
+           <label for="email">Email : </label>
+           <input type="email" id="email" name="email" placeholder="Email" required>
+
+           <label for="phone">Téléphone :</label>
+           <input type="tel" id="phone" name="phone" placeholder="numero de Téléphone" required>
+
+           <label for="type">Type d'emploi : </label>
+           <select id="type" name="type">
+               <option value="stage">Stage d'été</option>
+               <option value="stage">Stage PFE</option>
+               <option value="emploi">Emploi</option>
+               
+           </select>
+
+           <label for="cv"> CV : </label>
+           <input type="file"  id="myInput" aria-describedby="myInput" name="cv" required>
+
+           <label for="message">Lettre de motivation :</label>
+           <input type="file"  id="myInput" aria-describedby="myInput" name="message">
+           <!--textarea id="message" name="message" placeholder="Message" style="height:160px"></textarea-->
+
+           
+           
+
+           <input type="submit" name="envoyer" value="Envoyer">
+
+        </form>
+    </div>
+    
+
+    </div>
+</div>
+</div>
+</div>
+
+<!-- Footer -->
+    <section class="w3l-footers-1">
+        <div class="footer bg-secondary">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="row">
+                        <div class="col-lg-8 footer-left">
+                            <p class="m-0">© Copyright 2021 BICLINK </p>
+                        </div>
+                        <div class="col-lg-4 footer-right text-lg-right text-center mt-lg-0 mt-3">
+                            <ul class="social m-0 p-0">
+                                <li><a href="https://www.facebook.com/BICLINKconsulting/" target="_blank"><span class="fa fa-facebook"></span></a></li>
+                                <li><a href="https://www.linkedin.com/company/biclink/" target="_blank"><span class="fa fa-linkedin"></span></a></li>
+                               
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //Footer -->
+
+
+
+    <!-- move top -->
+    <button onclick="topFunction()" id="movetop" class="bg-primary" title="Go to top">
+        <span class="fa fa-angle-up"></span>
+    </button>
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("movetop").style.display = "block";
+            } else {
+                document.getElementById("movetop").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <!-- /move top -->
+
+    <!-- common jquery -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <!-- //common jquery -->
+
+    <!-- disable body scroll which navbar is in active -->
+    <script>
+        $(function () {
+            $('.navbar-toggler').click(function () {
+                $('body').toggleClass('noscroll');
+            })
+        });
+
+        
+    </script>
+    <!-- disable body scroll which navbar is in active -->
+
+	<script src="assets/js/javaR.js"></script>
+
+
+ <script>
+// Get the modal
+
+/* when modal is opened */
+document.querySelector("#open").addEventListener('click', function() {
+    document.querySelector("#myModalc").style.display = 'block';
+    document.querySelector("body").style.overflow = 'hidden';
+});
+
+/* when modal is closed */
+document.querySelector("#close").addEventListener('click', function() {
+    document.querySelector("#myModalc").style.display = 'none';
+    document.querySelector("body").style.overflow = 'visible';
+});
+
+</script>
+
+    <!--  bootstrap js -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!--  //bootstrap js -->
+
+
+</body>
+
+</html>

@@ -1,0 +1,210 @@
+<?php
+header("Content-Type: text/html; charset=utf-8");
+$serveurBD = "biclinkcmg931.mysql.db";
+$nomUtilisateur = "biclinkcmg931";
+$motDePasse = "BICLINKcmg1";
+$baseDeDonnees = "biclinkcmg931";
+$link = mysqli_connect($serveurBD, $nomUtilisateur, $motDePasse, $baseDeDonnees);
+   
+?>
+
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Contact</title>
+
+    <meta name="description" content="Vous avez une question? BICLINK met tout en œuvre pour répondre à vos questions sur tous les sujets et satisfaire vos demandes.">
+
+  <meta name="keywords" content="Contact us, Keep in touch, Q&A" />
+    <link rel="icon" href="assets/images/Li.png" sizes="32x32" type="image/png">
+
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="assets/css/style-starter.css">
+    <link rel="stylesheet" href="assets/css/style_contact.css">
+
+    <!-- font awesome -->
+  <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- inner page header -->
+    <div class="inner-banner">
+    	<header>
+        <div class="w3l-header inner-w3l-header" id="home">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-dark pl-0 pr-0">
+                    <div class="logo"><a class="navbar-brand m-0 text-primary" href="index.html"><img src="assets/images/Sans titre-2.png" alt="logo"> </a>  </div> 
+
+                    <!-- <span class="logo">portfolio</span>-->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ml-auto">
+                            
+                            <li class="nav-item mr-lg-4">
+                        <a class="nav-link pl-0 pr-0 font-weight-bold" href="about.html">BICLINK</a>
+                        <ul class="dropdown">
+                          <li><a href="about.html">Mieux nous connaître</a></li>
+                          <li><a href="about.html#notremission">Notre mission</a></li>
+                          <li><a href="about.html#VALEURS">Nos valeurs</a></li>
+                          <!-- <li><a href="about.html #VALEURS">Notre équipe</a></li>-->
+                        </ul>
+                    </li>
+                    <li class="nav-item mr-lg-4">
+                        <a class="nav-link pl-0 pr-0 font-weight-bold" href="offre.html">Offre</a>
+                    </li>
+
+                    <li class="nav-item mr-lg-4">
+                        <a class="nav-link pl-0 pr-0 font-weight-bold" href="expertise.html">Expertise</a>
+                    </li>
+                                        
+                    <li class="nav-item mr-lg-4">
+                        <a class="nav-link pl-0 pr-0 font-weight-bold" href="référence.html">Références</a>
+                    </li>
+                    <li class="nav-item mr-lg-4">
+                        <a class="nav-link pl-0 pr-0 font-weight-bold" href="recrutement.html">Recrutement</a>
+                        <ul class="dropdown">
+                          <li><a href="recrutement.php ">Pourquoi nous rejoindre?</a></li>
+                          <!--<li><a href="recrutement.php#emploi">Offre d'emlpoi</a></li>-->
+                          <li><a href="recrutement.php#candidature">Candidature spontanée</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item mr-lg-4">
+                        <a class="nav-link pl-0 pr-0 font-weight-bold" href="">Actualités</a>
+                        <ul class="dropdown">
+                          <li><a href="">Evénements</a></li>
+                          <li><a href="">Articles</a></li>                     
+                          </ul>
+                    </li>
+                    <li class="nav-item active mr-lg-4">
+                        <a class="nav-link pl-0 pr-0 font-weight-bold" href="contact.html">Contact</a>
+                    </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="underheader">
+        </div>
+        </header>
+    </div>
+    <!-- //inner page header -->
+
+    <!-- contacts -->
+  <section class="w3l-contact-7">
+    <div class="contacts-9 section-gap">
+      <div class="wrapper">
+        <div class="top-map">
+          <div class="map">
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3193.0519034863473!2d10.16502431464189!3d36.841232973089745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd330b08373d2f%3A0xa4595632b6ea6b47!2sBICLINK!5e0!3m2!1sfr!2stn!4v1612342246579!5m2!1sfr!2stn"frameborder="0" style="border:0" allowfullscreen=""></iframe>
+            
+          </div>
+
+
+          <div class="map-content-9">
+            <div class="cont-details">
+              <h5>NOUS CONTACTER</h5>
+
+              <address>
+                <p><span class="fa fa-map-marker"></span>6 Rue Mohamed Karkoub - Manar 3, 2092 Tunis </p>
+                <p> <a href="mailto:Contact@biclink-consulting.com" ><span class="fa fa-envelope"></span>Contact@biclink-consulting.com</a></p>
+                <p><span class="fa fa-phone"></span><a href="#">(216) 71 88 97 09</a></p>
+              </address>
+
+            </div>
+
+            <form id="contact-form" method="post" action="contactsend.php " enctype="multipart/form-data">
+
+              <input type="name" name="name" id="name" placeholder="Nom" required="">
+              <input type="email" name="email" id="email" placeholder="Email" required="">
+
+              <input type="message" name="message" id="message" placeholder="Message" required="">
+              
+              <button type="submit" class="btn btn-contact" name="envoyer">Envoyer</button>
+            </form>
+            
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+  <!-- //contacts -->
+ 
+
+    <!-- Footer -->
+    <section class="w3l-footers-1">
+        <div class="footer bg-secondary">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="row">
+                        <div class="col-lg-8 footer-left">
+                            <p class="m-0">© Copyright 2021 BICLINK </p>
+                        </div>
+                        <div class="col-lg-4 footer-right text-lg-right text-center mt-lg-0 mt-3">
+                            <ul class="social m-0 p-0">
+                                <li><a href="https://www.facebook.com/BICLINKconsulting/" target="_blank"><span class="fa fa-facebook"></span></a></li>
+                                <li><a href="https://www.linkedin.com/company/biclink/" target="_blank"><span class="fa fa-linkedin"></span></a></li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //Footer -->
+
+    <!-- move top -->
+    <button onclick="topFunction()" id="movetop" class="bg-primary" title="Go to top">
+        <span class="fa fa-angle-up"></span>
+    </button>
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("movetop").style.display = "block";
+            } else {
+                document.getElementById("movetop").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <!-- /move top -->
+
+    <!-- common jquery -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <!-- //common jquery -->
+
+
+    <!--  bootstrap js -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!--  //bootstrap js -->
+
+</body>
+
+</html>
